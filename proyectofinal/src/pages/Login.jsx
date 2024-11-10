@@ -52,6 +52,7 @@ const Login = () => {
           required 
         />
         <button type="submit" className="btn btn-primary mt-3">Iniciar Sesión</button>
+        <button onClick={()=> navigate('/register')} type="submit" className="btn btn-primary mt-3">Registrar Usuario</button>
       </form>
     </div>
   );

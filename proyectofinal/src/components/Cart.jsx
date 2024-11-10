@@ -9,12 +9,12 @@ const Cart = () => {
   const navigate = useNavigate();
   const [isProcessingOrder, setIsProcessingOrder] = useState(false);
 
-
+console.log("esto es el carrito", cart)
   const { totalItems, totalPrice } = useMemo(() => {
     return cart.reduce(
       (acc, item) => ({
         totalItems: acc.totalItems + item.cantidad,
-        totalPrice: acc.totalPrice + item.precio * item.cantidad,
+        totalPrice: acc.totalPrice + item.price * item.cantidad,
       }),
       { totalItems: 0, totalPrice: 0 }
     );
@@ -64,7 +64,7 @@ const Cart = () => {
                   </div>
                   <div className="col-md-2">
                     <p className="card-text">
-                      Precio: ${(item.precio * item.cantidad).toFixed(2)}
+                      Precio: ${(item.price * item.cantidad).toFixed(2)}
                     </p>
                   </div>
                   <div className="col-md-2">

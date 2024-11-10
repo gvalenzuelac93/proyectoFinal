@@ -1,6 +1,9 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #B19CD9;
+    font-family: "Varela Round", sans-serif !important;
+
   }
+
   
   .navbar {
     margin-bottom: 20px;
@@ -39,6 +42,7 @@ body {
   .nav-link {
     padding: 0.5rem 1rem;
     transition: color 0.3s ease;
+    color: white;
   }
   
   .nav-link:hover {
@@ -71,10 +75,11 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    
   }
 }
 .site-header {
-  background-color: #f8f9fa;
+  background-color: #FFB6C1;
   padding: 1rem 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -97,7 +102,7 @@ body {
   font-size: 2.5rem;
   color: #333;
   margin: 0;
-  text-align: center;
+  
 }
 
 @media (max-width: 768px) {

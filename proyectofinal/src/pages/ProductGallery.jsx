@@ -43,7 +43,8 @@ const ProductGallery = ({ limit }) => {
   }
 
   return (
-    <div className="product-gallery">
+   <div className='container'>
+   <div className="product-gallery">
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {products.map((product) => (
           <div key={product.id} className="col">
@@ -55,7 +56,7 @@ const ProductGallery = ({ limit }) => {
                   alt={product.title}
                 />
               </div>
-              <div className="card-body d-flex flex-column">
+              <div className="card-body d-flex flex-column bg-light">
                 <h5 className="card-title product-title">{product.title}</h5>
                 <p className="card-text text-muted mb-2">
                   {product.category}
@@ -69,7 +70,7 @@ const ProductGallery = ({ limit }) => {
                   <div className="d-flex justify-content-between align-items-center">
                     <span className="price">${product.price}</span>
                     <button 
-                      className="btn btn-primary"
+                      className="btn mi-boton"
                       onClick={() => navigate(`/product/${product.id}`)}
                     >
                       Ver detalles
@@ -81,6 +82,7 @@ const ProductGallery = ({ limit }) => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

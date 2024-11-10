@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark flex-column">
+    <nav className="navbar navbar-expand-lg navbar-secondary bg-secondary flex-column">
   <div className="container-fluid">
         
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
@@ -45,7 +45,7 @@ const Navbar = () => {
         </button>
       </form>
 
-      <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
         <li className="nav-item">
           <Link className="nav-link" to="/">Inicio</Link>
         </li>

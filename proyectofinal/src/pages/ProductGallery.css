@@ -6,6 +6,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 20px !important;
 }
   
 .product-card:hover {
@@ -20,6 +21,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 20px !important;
+ 
 }
   
 .card-img-top {
@@ -62,12 +65,26 @@
 .btn-primary {
   padding: 0.5rem 1rem;
   font-weight: 500;
+  
 }
+
+.mi-boton {
+  background-color: #B19CD9 !important; 
+  color: black !important; 
+  border-color: #F2F2F2 !important;
+  transition: background-color 0.3s ease!important;
+}
+
+.mi-boton:hover {
+  background-color: #ffb6c1 !important; 
+}
+
   
 
 @media (max-width: 768px) {
 .card-img-wrapper {
   height: 200px;
+  border-radius: 20px !important;
 }
     
 .card-img-top {
@@ -81,4 +98,8 @@
 .price {
   font-size: 1.1rem;
   }
+}
+
+.card-body{ 
+  border-radius: 20px;
 }

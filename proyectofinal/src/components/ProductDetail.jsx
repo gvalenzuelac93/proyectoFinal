@@ -60,7 +60,7 @@ const ProductDetail = () => {
           <h3 className="text-primary">${product.price}</h3>
           <div className="mt-3">
             <button 
-              className="btn btn-primary"
+              className="btn mi-botonsito"
               onClick={handleAddToCart}
             >
               Agregar al carrito

@@ -64,7 +64,7 @@ const Admin = () => {
       <h2>Panel de Administrador</h2>
       
       <button 
-        className="btn btn-primary mb-3"
+        className="btn mi-botonsito mb-3"
         onClick={() => setShowForm(!showForm)}
       >
         {showForm ? 'Cancelar' : 'Agregar Producto'}

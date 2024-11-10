@@ -64,7 +64,7 @@ const Profile = () => {
 
   const renderProfile = () => (
     <div className="card">
-      <div className="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+      <div className="card-header bg-secondary text-white d-flex justify-content-between align-items-center">
         <h3 className="mb-0">Información Personal</h3>
         <button 
           className="btn btn-light"
@@ -165,7 +165,7 @@ const Profile = () => {
 
   const renderOrders = () => (
     <div className="card">
-      <div className="card-header bg-primary text-white">
+      <div className="card-header bg-secondary text-white">
         <h3 className="mb-0">Historial de Pedidos</h3>
       </div>
       <div className="card-body">
@@ -219,7 +219,7 @@ const Profile = () => {
 
   const renderSecurity = () => (
     <div className="card">
-      <div className="card-header bg-primary text-white">
+      <div className="card-header bg-secondary text-white">
         <h3 className="mb-0">Cambiar Contraseña</h3>
       </div>
       <div className="card-body">

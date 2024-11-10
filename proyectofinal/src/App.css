@@ -45,3 +45,13 @@
   color: #888;
 }
 
+.mi-boton {
+  background-color: #B19CD9 !important; 
+  color: black !important; 
+  border-color: #F2F2F2 !important;
+  transition: background-color 0.3s ease!important;
+}
+
+.mi-boton:hover {
+  background-color: #ffb6c1 !important; 
+}

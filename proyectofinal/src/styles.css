@@ -1,6 +1,7 @@
 body {
     background-color: #B19CD9;
     font-family: "Varela Round", sans-serif !important;
+ 
 
   }
 
@@ -20,7 +21,7 @@ body {
   .card-text {
     color: #6c757d;
   }
-/* Estilos para el Navbar */
+
 .navbar {
     padding: 0.5rem 1rem;
   }
@@ -38,7 +39,7 @@ body {
     transform: scale(1.1);
   }
   
-  /* Estilos para los enlaces de navegación */
+  
   .nav-link {
     padding: 0.5rem 1rem;
     transition: color 0.3s ease;
@@ -49,13 +50,13 @@ body {
     color: #ffc107 !important;
   }
   
-  /* Estilos para el formulario de búsqueda */
+ 
   .form-control:focus {
     box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
     border-color: #ffc107;
   }
   
-  /* Estilos para el dropdown del perfil */
+  
   .dropdown-menu {
     border: none;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -121,3 +122,15 @@ body {
     font-size: 2rem;
   }
 }
+
+.mi-boton {
+  background-color: #B19CD9 !important; 
+  color: black !important; 
+  border-color: #F2F2F2 !important;
+  transition: background-color 0.3s ease!important;
+}
+
+.mi-boton:hover {
+  background-color: #ffb6c1 !important; 
+}
+

@@ -1,3 +1,4 @@
+// App.js
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -17,22 +18,24 @@ import Header from './components/Header';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="d-flex flex-column min-vh-100">
         <Header />
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/gallery" element={<ProductGallery />} />
-          <Route path="/search" element={<SearchResults />} />
-          <Route path="/product/:id" element={<ProductDetail />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/admin" element={<Admin />} />
-          <Route path="/acerca-de" element={<AcercaDe />} />
-          <Route path="/contacto" element={<Contacto />} />
-        </Routes>
+        <main className="flex-grow-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/gallery" element={<ProductGallery />} />
+            <Route path="/search" element={<SearchResults />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/admin" element={<Admin />} />
+            <Route path="/acerca-de" element={<AcercaDe />} />
+            <Route path="/contacto" element={<Contacto />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </Router>
@@ -40,3 +43,4 @@ function App() {
 }
 
 export default App;
+

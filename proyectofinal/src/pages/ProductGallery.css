@@ -103,3 +103,38 @@
 .card-body{ 
   border-radius: 20px;
 }
+
+.mi-boton {
+  background-color: #B19CD9 !important; 
+  color: black !important; 
+  border-color: #F2F2F2 !important;
+  transition: background-color 0.3s ease!important;
+}
+
+.mi-boton:hover {
+  background-color: #ffb6c1 !important; 
+}
+
+
+.mi-botonsito {
+  background-color: #ffb6c1 !important; 
+  color: black !important; 
+  border-color: #F2F2F2 !important;
+  transition: background-color 0.3s ease!important;
+}
+
+.mi-boton:hover {
+  background-color:#d8b6ff !important; 
+}
+
+
+.botonlogin {
+  background-color: #ffb6c1 !important; 
+  color: black !important; 
+  border-color: #F2F2F2 !important;
+  transition: background-color 0.3s ease!important;
+}
+
+.botonlogin:hover {
+  background-color: #d8b6ff !important; 
+}

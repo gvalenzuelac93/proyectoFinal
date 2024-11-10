@@ -19,7 +19,7 @@ const Register = () => {
         <input type="email" className="form-control" placeholder="Correo electrónico" value={email} onChange={(e) => setEmail(e.target.value)} required />
         <input type="password" className="form-control mt-2" placeholder="Contraseña" value={password} onChange={(e) => setPassword(e.target.value)} required />
         <input type="password" className="form-control mt-2" placeholder=" Repetir Contraseña" value={password} onChange={(e) => setPassword(e.target.value)} required />
-        <button type="submit" className="btn btn-primary mt-3">Registrar</button>
+        <button type="submit" className="btn mi-botonsito mt-3">Registrar</button>
       </form>
     </div>
   );

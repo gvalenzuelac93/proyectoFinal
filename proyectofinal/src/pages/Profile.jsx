@@ -116,7 +116,7 @@ const Profile = () => {
                     onChange={(e) => setEditedUser({...editedUser, address: e.target.value})}
                   />
                 </div>
-                <button type="submit" className="btn btn-primary">
+                <button type="submit" className="btn mi-boton">
                   Guardar Cambios
                 </button>
               </div>
@@ -254,7 +254,7 @@ const Profile = () => {
               required
             />
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn mi-boton">
             Cambiar Contraseña
           </button>
         </form>
